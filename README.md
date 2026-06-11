@@ -1,5 +1,6 @@
-# Hệ Thống Cờ Caro Trực Tuyến (Gomoku Online)
+# Hệ thống chơi cờ caro trực tuyến (Gomoku Online Multiplayer Game)
 
+Chú thích: Thông tin được viết bằng tiếng Anh ở phía dưới/ English version below.
 Dự án xây dựng hệ thống chơi cờ caro trực tuyến sử dụng Java theo mô hình Client-Server.  
 Người chơi có thể đăng nhập, tạo phòng, tham gia phòng và thi đấu với nhau thông qua mạng. Hệ thống đồng thời cung cấp công cụ quản trị dành cho Admin.  
 
