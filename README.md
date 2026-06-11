@@ -4,17 +4,16 @@ Chú thích: Thông tin được viết bằng tiếng Anh ở phía dưới/ En
 Dự án xây dựng hệ thống chơi cờ caro trực tuyến sử dụng Java theo mô hình Client-Server.  
 Người chơi có thể đăng nhập, tạo phòng, tham gia phòng và thi đấu với nhau thông qua mạng. Hệ thống đồng thời cung cấp công cụ quản trị dành cho Admin.  
 
-## Thành Phần Dự Án
+## Thành phần của dự án
 
 ### Gomoku Server
 
-Thành phần này dành cho quản trị viên
+Thành phần này đảm nhiệm những công việc như:
 
 - Xác thực người dùng  
-- Quản lý phòng chơi  
-- Điều phối trận đấu  
+- Quản lý phòng chơi   
 - Đồng bộ trạng thái trò chơi  
-- Quản trị hệ thống  
+- Cung cấp giao diện quản lý để quản trị viên có thể quản lý hệ thống
 
 Repository: [GomokuServer](https://github.com/HwuPhuc/GomokuServer)   
 
@@ -22,16 +21,15 @@ Repository: [GomokuServer](https://github.com/HwuPhuc/GomokuServer)
 
 Ứng dụng dành cho người chơi:
 
-- Đăng ký tài khoản
-- Đăng nhập
+- Đăng ký/Đăng nhập
 - Tạo và tham gia phòng để chơi với bạn
 - Chơi cờ trực tuyến
 - Chat trong trận đấu với đối phương
-- Kiểm tra thông tin/ thông số cá nhân (Tổng số trận/số trận thắng/số trận thua)
+- Kiểm tra thông tin/thông số cá nhân (Tổng số trận/số trận thắng/số trận thua)
 
 Repository: [GomokuClient](https://github.com/HwuPhuc/GomokuClient)  
 
-## Chức Năng Chính
+## Chức năng chính
  
 - Chơi cờ caro trực tuyến nhiều người chơi
 - Đồng bộ nước đi theo thời gian thực
@@ -71,7 +69,8 @@ Features:
 - Check personal statistics (Game played/Win/Lose)
 
 Repository: [GomokuClient](https://github.com/HwuPhuc/GomokuClient)  
-## Features
+
+## Main features
 
 - Multiplayer online gameplay
 - Real-time move synchronization
